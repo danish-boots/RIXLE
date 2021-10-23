@@ -168,7 +168,7 @@ before: `*${me}*
 *› Kalender islam:* ${dateIslamic}
 *› Kalender Java:* ${week} ${weton} ${date}
 
-*› Github:*\nhttps://github.com/Rizxyu/RIXLE-BOT`.trimStart(),
+*› Github:*\nhttps://github.com/Kyluesky/RIXLE`.trimStart(),
 type: "*#type*\n",
 after: "\n"
 }
@@ -259,7 +259,7 @@ break;
 
    case "creator":
 conarray = []
-ownerContact = ['6282328303332', '62822980698995','6285783417029','62823283033323','6285640020165','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0']
+ownerContact = ['6285808936396', '6283845403062','62838454030621','62','62','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0']
   for (let i of ownerContact.map(v => v + '@s.whatsapp.net')) {
  vname = conn.contacts[i] != undefined ? conn.contacts[i].vname || conn.contacts[i].notify : undefined
   conarray.push({
